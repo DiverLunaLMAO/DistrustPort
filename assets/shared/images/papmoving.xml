@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="papmoving.png">
+	<!-- Created with Adobe Animate version 21.0.1.37179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="moving0000" x="0" y="0" width="7262" height="679" frameX="0" frameY="0" frameWidth="10042" frameHeight="679"/>
+	<SubTexture name="moving0001" x="0" y="679" width="7265" height="679" frameX="-71" frameY="0" frameWidth="10042" frameHeight="679"/>
+	<SubTexture name="moving0002" x="0" y="1358" width="7267" height="679" frameX="-142" frameY="0" frameWidth="10042" frameHeight="679"/>
+	<SubTexture name="moving0003" x="0" y="2037" width="7270" height="679" frameX="-212" frameY="0" frameWidth="10042" frameHeight="679"/>
+	<SubTexture name="moving0004" x="0" y="2716" width="7272" height="679" frameX="-283" frameY="0" frameWidth="10042" frameHeight="679"/>
+	<SubTexture name="moving0005" x="0" y="3395" width="7274" height="679" frameX="-354" frameY="0" frameWidth="10042" frameHeight="679"/>
+	<SubTexture name="moving0006" x="0" y="4074" width="7276" height="679" frameX="-425" frameY="0" frameWidth="10042" frameHeight="679"/>
+	<SubTexture name="moving0007" x="0" y="4753" width="7279" height="679" frameX="-495" frameY="0" frameWidth="10042" frameHeight="679"/>
+	<SubTexture name="moving0008" x="0" y="5432" width="7282" height="679" frameX="-566" frameY="0" frameWidth="10042" frameHeight="679"/>
+	<SubTexture name="moving0009" x="0" y="6111" width="7284" height="679" frameX="-637" frameY="0" frameWidth="10042" frameHeight="679"/>
+	<SubTexture name="moving0010" x="0" y="6790" width="7286" height="679" frameX="-708" frameY="0" frameWidth="10042" frameHeight="679"/>
+	<SubTexture name="moving0011" x="0" y="7469" width="7289" height="679" frameX="-778" frameY="0" frameWidth="10042" frameHeight="679"/>
+</TextureAtlas>
