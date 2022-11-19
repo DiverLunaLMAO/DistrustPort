@@ -666,6 +666,33 @@ class PlayState extends MusicBeatState
 					bg.antialiasing = false;
 					add(bg);
 				}
+			case 'swapSansBackground':
+					{
+						defaultCamZoom = 0.8;
+						curStage = 'swapSansBackground';
+						var bg:FlxSprite = new FlxSprite(-625, -400).loadGraphic(Paths.image('swapSansBackground', 'shared'));
+						bg.scale.x = 1.1;
+						bg.scale.y = 1.1;
+						if(FlxG.save.data.antialiasing)
+							{
+								bg.antialiasing = true;
+							}			
+						bg.active = false;
+						bg.updateHitbox();
+						add(bg);
+
+						var bfLamp:FlxSprite = new FlxSprite(0, 350).loadGraphic(Paths.image('bfLamp', 'shared'));
+						if(FlxG.save.data.antialiasing)
+							{
+								bfLamp.antialiasing = true;
+							}
+						bfLamp.screenCenter(X);	
+						bfLamp.active = false;
+						bfLamp.updateHitbox();
+						add(bfLamp);
+
+
+					}
 		}
 
 		if(isPixelStage) {
